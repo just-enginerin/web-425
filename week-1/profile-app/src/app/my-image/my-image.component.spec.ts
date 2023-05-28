@@ -1,3 +1,10 @@
+/*
+  Title: my-image.component.spec.ts
+  Author: Erin Brady
+  Date: 28 May 2023
+  Description: Test suite for my-image component
+*/
+
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MyImageComponent } from './my-image.component';
@@ -10,6 +17,7 @@ describe('MyImageComponent', () => {
     TestBed.configureTestingModule({
       declarations: [MyImageComponent]
     });
+
     fixture = TestBed.createComponent(MyImageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

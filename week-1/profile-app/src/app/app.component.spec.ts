@@ -1,3 +1,10 @@
+/*
+  Title: app.component.spec.ts
+  Author: Erin Brady
+  Date: 28 May 2023
+  Description: Test Suite for App component
+*/
+
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
@@ -15,7 +22,7 @@ describe('AppComponent', () => {
   it(`should have as title 'profile-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('profile-app');
+    expect(app.assignment).toEqual('profile-app');
   });
 
   it('should render title', () => {

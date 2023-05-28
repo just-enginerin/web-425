@@ -1,3 +1,10 @@
+/*
+  Title: app.module.ts
+  Author: Erin Brady
+  Date: 28 May 2023
+  Description: TS App module
+*/
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -17,4 +24,5 @@ import { MyDetailsComponent } from './my-details/my-details.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

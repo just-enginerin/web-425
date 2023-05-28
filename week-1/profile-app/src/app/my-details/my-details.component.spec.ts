@@ -1,3 +1,10 @@
+/*
+  Title: my-details.component.spec.ts
+  Author: Erin Brady
+  Date: 28 May 2023
+  Description: Test suite for my-details component
+*/
+
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MyDetailsComponent } from './my-details.component';

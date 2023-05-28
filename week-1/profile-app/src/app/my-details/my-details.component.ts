@@ -1,3 +1,10 @@
+/*
+  Title: my-details.component.ts
+  Author: Erin Brady
+  Date: 28 May 2023
+  Description: my-details component TS
+*/
+
 import { Component } from '@angular/core';
 
 @Component({
