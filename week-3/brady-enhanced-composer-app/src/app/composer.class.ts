@@ -36,6 +36,9 @@ export class Composer {
   }
 
   getComposer(composerId: number) {
-    return this.composers.find(composer => composer.composerId === composerId)
+    for(let composer of this.composers) {
+      if(composer.composerId === composerId) return composer
+    }
+    return null
   }
 }

@@ -9,3 +9,15 @@
   width: 90vw;
   margin: 30px auto;
 }
+
+.float-right {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
