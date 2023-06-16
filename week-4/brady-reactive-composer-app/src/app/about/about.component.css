@@ -1,0 +1,19 @@
+/*
+  Title: about.component.css
+  Author: Erin Brady
+  Date: 3 June 2023
+  Description: About Component Styles
+*/
+
+#portrait {
+  max-width: 90%;
+}
+
+caption {
+  width: max-content;
+  text-align: center !important;
+}
+
+.row {
+  align-items: center;
+}
