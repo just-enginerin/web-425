@@ -1,0 +1,12 @@
+/*
+  Title: composer-list.component.css
+  Author: Erin Brady
+  Date: 16 June 2023
+  Description: Composer List Component Styles
+*/
+
+.textSearch {
+  width: 30%;
+  float: right;
+  margin-bottom: 5px;
+}

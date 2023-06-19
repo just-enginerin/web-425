@@ -1,0 +1,23 @@
+/*
+  Title: style.css
+  Author: Erin Brady
+  Date: 3 June 2023
+  Description: Composer App Global Styles
+*/
+
+.row {
+  width: 90vw;
+  margin: 30px auto;
+}
+
+.float-right {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

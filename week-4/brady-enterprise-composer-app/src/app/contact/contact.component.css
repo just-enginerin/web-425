@@ -1,0 +1,12 @@
+/*
+  Title: contact.component.css
+  Author: Erin Brady
+  Date: 3 June 2023
+  Description: Contact Component Styles
+*/
+
+.row {
+  text-align: center;
+  align-items: center;
+  width: 80%;
+}
