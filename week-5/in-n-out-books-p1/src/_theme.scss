@@ -9,13 +9,13 @@
 // Be sure that you only ever include this mixin once!
 @include mat.core();
 
-$dark-primary: mat.define-palette(mat.$blue-palette, 500);
+$dark-primary: mat.define-palette(mat.$blue-palette, 400);
 $dark-accent: mat.define-palette(mat.$green-palette, 400);
 
 // The "warn" palette is optional and defaults to red if not specified.
-$dark-warn: mat.define-palette(mat.$red-palette);
+$dark-warn: mat.define-palette(mat.$red-palette, 400);
 
-$dark-theme: mat.define-light-theme((
+$dark-theme: mat.define-dark-theme((
  color: (
    primary: $dark-primary,
    accent: $dark-accent,
@@ -24,3 +24,5 @@ $dark-theme: mat.define-light-theme((
  typography: mat.define-typography-config(),
  density: 0,
 ));
+
+@include mat.all-component-themes($dark-theme);
