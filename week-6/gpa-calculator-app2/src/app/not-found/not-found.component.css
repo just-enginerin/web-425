@@ -126,3 +126,7 @@ a::after {
 .errorcode {
   color: yellow;
 }
+
+img {
+  width: 100%;
+}
